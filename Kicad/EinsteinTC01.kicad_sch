@@ -1,0 +1,1114 @@
+(kicad_sch
+	(version 20250114)
+	(generator "eeschema")
+	(generator_version "9.0")
+	(uuid "29647f3f-976a-4b7a-94cb-9b85b4de3290")
+	(paper "A3")
+	(lib_symbols
+		(symbol "Mechanical:MountingHole"
+			(pin_names
+				(offset 1.016)
+			)
+			(exclude_from_sim no)
+			(in_bom no)
+			(on_board yes)
+			(property "Reference" "H"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "MountingHole"
+				(at 0 3.175 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Mounting Hole without connection"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "mounting hole"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "MountingHole*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "MountingHole_0_1"
+				(circle
+					(center 0 0)
+					(radius 1.27)
+					(stroke
+						(width 1.27)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
+	)
+	(junction
+		(at 97.79 72.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "359171b4-ff44-4718-b7d8-194b86d17ea8")
+	)
+	(junction
+		(at 92.71 81.28)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "42ec6b05-8adc-438f-89e8-fe267134e6ed")
+	)
+	(junction
+		(at 92.71 195.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "76d14eed-c76e-462b-850e-fefe50e809ae")
+	)
+	(junction
+		(at 92.71 132.08)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b4eff2aa-587e-4961-b882-20e3e587111e")
+	)
+	(junction
+		(at 97.79 85.09)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "baed248f-348f-4f9e-a847-0aff8e916321")
+	)
+	(junction
+		(at 92.71 68.58)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "c6ad6206-304a-490e-a303-56d4c4e6ecdd")
+	)
+	(junction
+		(at 97.79 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d121c4b5-dedd-4b5f-8400-5ee05d78e429")
+	)
+	(junction
+		(at 97.79 199.39)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ea67963b-67f9-4b2a-b74c-6cf33c6693f6")
+	)
+	(no_connect
+		(at 114.3 41.91)
+		(uuid "8b666ce1-c94f-42fd-9ec3-5dda7750eb74")
+	)
+	(bus
+		(pts
+			(xy 92.71 132.08) (xy 114.3 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "00f02480-700c-4086-a9c5-5b13222f650e")
+	)
+	(bus
+		(pts
+			(xy 92.71 259.08) (xy 92.71 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05fb8eee-fdbb-4061-915d-bf5f02935dd3")
+	)
+	(bus
+		(pts
+			(xy 88.9 72.39) (xy 97.79 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "0c2c4271-47e6-4ecd-a520-5807528456dd")
+	)
+	(bus
+		(pts
+			(xy 88.9 132.08) (xy 92.71 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "10859fb7-acf3-4ea8-a40a-9074f6899ae9")
+	)
+	(bus
+		(pts
+			(xy 92.71 132.08) (xy 92.71 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1c3e4d86-4345-414d-a8d3-13505c256eda")
+	)
+	(bus
+		(pts
+			(xy 92.71 81.28) (xy 92.71 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d2d762b-c841-42aa-878f-b5efcda69c5c")
+	)
+	(bus
+		(pts
+			(xy 88.9 262.89) (xy 97.79 262.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c10d6ce-fe69-494c-a09e-f6ecbf9aa0dc")
+	)
+	(bus
+		(pts
+			(xy 97.79 85.09) (xy 97.79 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "321d1599-efc7-430b-a014-18dc018812ab")
+	)
+	(bus
+		(pts
+			(xy 170.18 68.58) (xy 170.18 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "33589f28-ed6b-40e3-924b-784259a1caf2")
+	)
+	(bus
+		(pts
+			(xy 190.5 72.39) (xy 175.26 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "427dd7c6-e5fa-4ce6-a1f6-0a14262e9c94")
+	)
+	(bus
+		(pts
+			(xy 88.9 259.08) (xy 92.71 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "46285552-ec53-4b62-a743-4e52f35bf9ba")
+	)
+	(bus
+		(pts
+			(xy 175.26 72.39) (xy 175.26 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "48867f03-d018-44d5-8ff5-7c84ea0ee9a2")
+	)
+	(bus
+		(pts
+			(xy 88.9 68.58) (xy 92.71 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5b5b41cd-df96-4da6-bc05-58ad442079c8")
+	)
+	(bus
+		(pts
+			(xy 114.3 135.89) (xy 97.79 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6a0bf329-9347-458b-96b9-84f3c029a9ba")
+	)
+	(bus
+		(pts
+			(xy 92.71 132.08) (xy 92.71 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b7c9fbd-7a91-4530-9f1c-c559e2dd7da0")
+	)
+	(bus
+		(pts
+			(xy 97.79 72.39) (xy 114.3 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7b2f01d5-bd2b-4af9-9966-e8215bb7f2a8")
+	)
+	(bus
+		(pts
+			(xy 114.3 195.58) (xy 92.71 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7d313189-ab6a-47aa-bce6-2092e763ede4")
+	)
+	(bus
+		(pts
+			(xy 97.79 135.89) (xy 97.79 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "841f7602-c16d-4efc-afce-e3ed9b25d1d6")
+	)
+	(bus
+		(pts
+			(xy 190.5 68.58) (xy 170.18 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9fe14976-e06c-42d7-940c-b2a70eb5010b")
+	)
+	(bus
+		(pts
+			(xy 88.9 195.58) (xy 92.71 195.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "adda99ab-d6bc-455e-b339-07021cddd57f")
+	)
+	(bus
+		(pts
+			(xy 97.79 199.39) (xy 97.79 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b6a28d2d-7cb5-4bc9-8560-2ba66a4b67d2")
+	)
+	(bus
+		(pts
+			(xy 114.3 199.39) (xy 97.79 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c8d9d3d0-0e22-48f1-aebc-1450d62a5abd")
+	)
+	(bus
+		(pts
+			(xy 97.79 262.89) (xy 97.79 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d9a70ad7-60da-4067-89c7-134cd0ce1794")
+	)
+	(bus
+		(pts
+			(xy 92.71 81.28) (xy 170.18 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbfc7428-9f6e-4ea4-b8b8-6bd736b2a0ec")
+	)
+	(bus
+		(pts
+			(xy 92.71 68.58) (xy 114.3 68.58)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "eaba3029-5142-4ec0-8390-80ce15f539e2")
+	)
+	(bus
+		(pts
+			(xy 175.26 85.09) (xy 97.79 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ede9b28b-7318-4f25-bec9-7aa9a62b5c6b")
+	)
+	(bus
+		(pts
+			(xy 88.9 199.39) (xy 97.79 199.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fee21bc4-7996-44e3-a04c-d02942b7c5fa")
+	)
+	(symbol
+		(lib_id "Mechanical:MountingHole")
+		(at 250.19 256.54 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom no)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "be78a9c7-3131-4d99-ad15-b34cf9a0d560")
+		(property "Reference" "G1"
+			(at 252.73 255.2699 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Tatung Einstein Logo"
+			(at 252.73 257.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Einstein:Einstein_Logo_35mm"
+			(at 250.19 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 250.19 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Mounting Hole without connection"
+			(at 250.19 256.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(instances
+			(project ""
+				(path "/29647f3f-976a-4b7a-94cb-9b85b4de3290"
+					(reference "G1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 228.6)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "0058e5ba-402d-4c02-ae05-24feaa9206bb")
+		(property "Sheetname" "Expansion"
+			(at 38.1 227.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "einstein_expansion.kicad_sch"
+			(at 38.1 267.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A[0..15]" output
+			(at 88.9 259.08 0)
+			(uuid "0a1e3f7e-8e4e-4a2c-8e39-0200daf51578")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "D[0..7]" output
+			(at 88.9 262.89 0)
+			(uuid "6db30bf0-2eec-4aa6-8f4e-d7e12e9aafb1")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "EinsteinTC01"
+				(path "/29647f3f-976a-4b7a-94cb-9b85b4de3290"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 38.1)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "598e6f80-6dc9-4984-b038-5d1147a93de3")
+		(property "Sheetname" "VDP"
+			(at 190.5 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "einstein_vdp.kicad_sch"
+			(at 190.5 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A[0..15]" output
+			(at 190.5 68.58 180)
+			(uuid "4a89504d-f200-4f6d-888a-1dcf242a8ccb")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D[0..7]" output
+			(at 190.5 72.39 180)
+			(uuid "f1c64c83-7209-49d6-b10c-489004a54a89")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "EinsteinTC01"
+				(path "/29647f3f-976a-4b7a-94cb-9b85b4de3290"
+					(page "7")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 38.1)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "5bd1ef75-aac2-4075-a3bd-e070d1c610a4")
+		(property "Sheetname" "System RAM and ROM"
+			(at 114.3 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "einstein_memory.kicad_sch"
+			(at 114.3 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A[0..15]" output
+			(at 114.3 68.58 180)
+			(uuid "2682f67a-219e-4a56-8e9e-789409a22bfd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D[0..7]" output
+			(at 114.3 72.39 180)
+			(uuid "4e0ebade-50a5-47f4-aace-f001b5354abd")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "MA[0..7]" output
+			(at 114.3 41.91 180)
+			(uuid "eb6e2b7b-f53f-4ffc-9e70-5c959876528b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "EinsteinTC01"
+				(path "/29647f3f-976a-4b7a-94cb-9b85b4de3290"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 38.1)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "6e401581-369c-433e-9bfc-1cfebfca5882")
+		(property "Sheetname" "CPU and Buffers"
+			(at 38.1 37.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "einstein_cpu.kicad_sch"
+			(at 38.1 76.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A[0..15]" output
+			(at 88.9 68.58 0)
+			(uuid "eba0ab53-963e-49af-8786-6a533a6905e6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "D[0..7]" output
+			(at 88.9 72.39 0)
+			(uuid "c1098a86-3336-4e10-999d-afbdb04658b6")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "EinsteinTC01"
+				(path "/29647f3f-976a-4b7a-94cb-9b85b4de3290"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 101.6)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "73daecf7-9e5e-4c50-96cc-19439b139409")
+		(property "Sheetname" "Addressing"
+			(at 38.1 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "einstein_addressing.kicad_sch"
+			(at 38.1 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A[0..15]" output
+			(at 88.9 132.08 0)
+			(uuid "a6f02c96-bf90-4c0c-b70a-716c453c4542")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "EinsteinTC01"
+				(path "/29647f3f-976a-4b7a-94cb-9b85b4de3290"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 165.1)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9498be2a-8c9f-4192-a850-133de938590d")
+		(property "Sheetname" "Power"
+			(at 190.5 164.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "einstein_power.kicad_sch"
+			(at 190.5 203.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EinsteinTC01"
+				(path "/29647f3f-976a-4b7a-94cb-9b85b4de3290"
+					(page "6")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 165.1)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "a3b6a00f-c327-44a0-9091-e31016d74a30")
+		(property "Sheetname" "Serial and Parallel"
+			(at 114.3 164.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "einstein_siopio.kicad_sch"
+			(at 114.3 203.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A[0..15]" output
+			(at 114.3 195.58 180)
+			(uuid "44cff41e-4de4-4b6c-b46a-291e207e244f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D[0..7]" output
+			(at 114.3 199.39 180)
+			(uuid "eb4aec52-8eab-475c-8cda-35f940afdfc3")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "EinsteinTC01"
+				(path "/29647f3f-976a-4b7a-94cb-9b85b4de3290"
+					(page "9")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 38.1 165.1)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "c0c66592-b56e-4147-8f15-ebe7e2811158")
+		(property "Sheetname" "Sound, Keyboard and Joysticks"
+			(at 38.1 164.3884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "einstein_psgkeyboard.kicad_sch"
+			(at 38.1 203.7846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A[0..15]" output
+			(at 88.9 195.58 0)
+			(uuid "85b501ed-02df-419e-95ec-37d8d6482f1b")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(pin "D[0..7]" output
+			(at 88.9 199.39 0)
+			(uuid "743b0ddd-3cca-475f-ad6e-88c66b83007f")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(instances
+			(project "EinsteinTC01"
+				(path "/29647f3f-976a-4b7a-94cb-9b85b4de3290"
+					(page "10")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 190.5 101.6)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "cb221eef-9c5d-4f5d-a6cb-33c31d89d5f0")
+		(property "Sheetname" "Video Out"
+			(at 190.5 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "einstein_videoout.kicad_sch"
+			(at 190.5 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(instances
+			(project "EinsteinTC01"
+				(path "/29647f3f-976a-4b7a-94cb-9b85b4de3290"
+					(page "11")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 114.3 101.6)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ee1b9bb3-44e6-4754-b5b5-5ab86b3c8ef1")
+		(property "Sheetname" "Floppy Disc Drive"
+			(at 114.3 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "einstein_fdd.kicad_sch"
+			(at 114.3 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "A[0..15]" output
+			(at 114.3 132.08 180)
+			(uuid "b33d23d6-1a6e-4dce-9339-52254b625d89")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(pin "D[0..7]" output
+			(at 114.3 135.89 180)
+			(uuid "424d9f8a-35a9-4715-9ef9-933f291145d2")
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(instances
+			(project "EinsteinTC01"
+				(path "/29647f3f-976a-4b7a-94cb-9b85b4de3290"
+					(page "8")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 266.7 101.6)
+		(size 50.8 38.1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f201a519-50e5-43ca-be65-0500cd846a09")
+		(property "Sheetname" "RGB Modulator"
+			(at 266.7 100.8884 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "einstein_rgb.kicad_sch"
+			(at 266.7 140.2846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(property "Field2" ""
+			(at 266.7 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(instances
+			(project "EinsteinTC01"
+				(path "/29647f3f-976a-4b7a-94cb-9b85b4de3290"
+					(page "12")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+	(embedded_fonts no)
+)

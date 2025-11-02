@@ -1,0 +1,117 @@
+(footprint "Wire_Link_8.96mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
+	(tags "C Disc series Radial pin pitch 5.00mm  diameter 4.3mm width 1.9mm Capacitor")
+	(property "Reference" "J***"
+		(at -4.025 0.1 0)
+		(layer "F.SilkS")
+		(uuid "aaa42069-1481-46ef-810c-faf9e5a12192")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "Wire Link"
+		(at 4.625 2 0)
+		(layer "F.Fab")
+		(uuid "b3df21a2-d570-424d-bb38-f0d4365202d5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "94c6b41a-819e-485d-9f48-668fc3ac2b51")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Unpolarized capacitor"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "34f8e020-0e92-4015-8bae-c51afb0ac3b8")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -1.025 -1)
+		(end 9.95 1)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "70c789f4-79ff-4dcb-8fbf-e2e4509300a8")
+	)
+	(fp_rect
+		(start -1.225 -1.2)
+		(end 10.15 1.2)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "3446388a-b9d3-4ea8-a44b-852551fb836e")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5.25 -0.025 0)
+		(layer "F.Fab")
+		(uuid "e4e91ebf-44d1-4183-873f-8155a7431ce3")
+		(effects
+			(font
+				(size 0.86 0.86)
+				(thickness 0.129)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "8f0ca46c-16cd-42c8-beaf-f22aa5e7d0b1")
+	)
+	(pad "2" thru_hole circle
+		(at 8.96 0)
+		(size 1.6 1.6)
+		(drill 0.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "0b425e52-11bd-482a-a0ab-7158a12f4210")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/Capacitor_THT.3dshapes/C_Disc_D4.3mm_W1.9mm_P5.00mm.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

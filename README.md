@@ -30,14 +30,19 @@ Projects are in Kicad 9.
 * The ADC0844 alternative footprint is a µPD7002 which requires C13 populating with 33nF (untested)
 * The value/range of L101 "Chrominance Rejector" is at this time unknown
 
-## Coming Soon
-
-* The board requires specifically the TMS9129 VDP chip, which can be hard/expensive to get. TMS9929 adapter board to follow.
-* Arduino based PS/2 keyboard adapter.
-
 ## Credit
 
 PCB layouts by Rob Taylor @peepouk. Schematics recreated by Ian Cudlip @grandoldian.
+
+## Expansions
+
+### TMSAdapterTC01
+
+Adapter board to allow the use of a TMS9929 chip on the Tatung Einstein TC-01.
+
+## Coming Soon
+
+* Arduino based PS/2 keyboard adapter.
 
 ## Links
 

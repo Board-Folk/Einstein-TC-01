@@ -16,6 +16,7 @@ Projects are in Kicad 9.
 
 * The 3 digit references have been abridged so they work in Kicad
 * The factory modifications (cuts and bodge wires) for the reset circuit have been included on the board
+* Bodge capacitor C70 included on board for printer port strobe delay
 * A solder jumper next to socket M16 provides the common modification of 5V power to pin 6 on the video output socket as you'd have on a BBC Micro
 * Some small silkscreen improvements have been made to avoid confusion
 

@@ -40,9 +40,17 @@ PCB layouts by Rob Taylor @peepouk. Schematics recreated by Ian Cudlip @grandold
 
 Adapter board to allow the use of a TMS9929 chip on the Tatung Einstein TC-01.
 
+### EinsteinTC01PS2
+
+Arduino Nano based PS/2 Keyboard Adapter for the Einstein TC-01
+
+### EinsteinTC01PS2Mini
+
+ATMEGA328 based PS/2 Keyboard Adapter for the Einstein TC-01
+
 ## Coming Soon
 
-* Arduino based PS/2 keyboard adapter.
+* V9958 192K VDP Adapter (Experimental)
 
 ## Links
 

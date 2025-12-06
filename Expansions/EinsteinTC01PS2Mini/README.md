@@ -4,6 +4,8 @@
 
 The smaller ATMEGA328 version of a PS/2 keyboard adapter for the Einstein TC-01. The board uses separate pins from the Nano to pull Shift, Ctrl and Grph through BC517 darlington pairs. This version doesn't include indicator LEDs for these.
 
+The board needs a separate 5V power connection as there is no power output on the Einstein's keyboard header. Footprints for both a barrel jack and 2 pin XH connector are provided for this.
+
 There are 3 rows of pin headers, the centre row being 2.54mm, the other 2 2.50mm same as the main board. This arrangement could be use for passthrough to an existing keyboard if necessary.
 
 ## Code

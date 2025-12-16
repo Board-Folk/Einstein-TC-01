@@ -1,0 +1,125 @@
+(footprint "Pot Straight"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "C, Disc series, Radial, pin pitch=5.00mm, , diameter*width=4.3*1.9mm^2, Capacitor, http://www.vishay.com/docs/45233/krseries.pdf")
+	(tags "C Disc series Radial pin pitch 5.00mm  diameter 4.3mm width 1.9mm Capacitor")
+	(property "Reference" "R179"
+		(at -4.87 0 0)
+		(layer "F.SilkS")
+		(uuid "a4ee7f18-4ffd-40eb-bed2-2e87d03b8faa")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "220K"
+		(at 5.2 2.35 0)
+		(layer "F.Fab")
+		(uuid "60890b77-3a74-46aa-b80d-3fbdd94e2bb5")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "0e5993c1-8b71-4a5b-bcf0-ecad109fc303")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Trimmable resistor (preset resistor)"
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "94c3bd4c-1db3-4a7c-a5b4-23b4b37674ec")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_rect
+		(start -1.44 -1.37)
+		(end 6.48 1.33)
+		(stroke
+			(width 0.3)
+			(type default)
+		)
+		(fill no)
+		(layer "F.SilkS")
+		(uuid "101adbe0-5178-4fa2-8171-c88821728fdc")
+	)
+	(fp_rect
+		(start -1.7 -1.59)
+		(end 6.74 1.53)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "3438fa20-01dc-4473-b435-4edb2f7fbcff")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5.125 0 0)
+		(layer "F.Fab")
+		(uuid "e673efe1-d5bd-4cb3-87be-f8ad21165bf2")
+		(effects
+			(font
+				(size 0.72 0.72)
+				(thickness 0.108)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at 0 0)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "50b58136-8163-4c7f-b938-d6638823e91e")
+	)
+	(pad "2" thru_hole circle
+		(at 2.54 0)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "203bb247-0540-4c1c-beb4-a160a9f806bd")
+	)
+	(pad "2" thru_hole circle
+		(at 5.08 0)
+		(size 1.8 1.8)
+		(drill 1)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "4382d350-3907-4e43-a5b1-caa562ca17fc")
+	)
+	(embedded_fonts no)
+	(model "${KICAD6_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0204_L3.6mm_D1.6mm_P7.62mm_Horizontal.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

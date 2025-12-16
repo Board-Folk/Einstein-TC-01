@@ -1,0 +1,93 @@
+(footprint "Bodge Cut"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(descr "SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, open")
+	(tags "solder jumper open")
+	(property "Reference" "REF**"
+		(at 0 -2.175 0)
+		(layer "F.Fab")
+		(uuid "732d89d4-2969-4956-97df-5bf80fb988d0")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Value" "Bodge Cut"
+		(at 0 1.9 0)
+		(layer "F.Fab")
+		(uuid "e5a4db1a-c061-4b0a-ad51-a24c8790a5c4")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "efb33a39-f8e2-4059-81ec-af7a2bfc56a7")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "c1af3a12-4d8b-4748-870e-a07d94a67d7c")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(zone_connect 1)
+	(attr exclude_from_pos_files exclude_from_bom allow_soldermask_bridges)
+	(fp_rect
+		(start -0.15 -0.5)
+		(end 0.15 0.5)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(fill yes)
+		(layer "F.Mask")
+		(uuid "3b5e2732-2a4c-4917-b09e-a67ffc4435d7")
+	)
+	(fp_rect
+		(start -0.8 -0.55)
+		(end 0.8 0.55)
+		(stroke
+			(width 0.05)
+			(type default)
+		)
+		(fill no)
+		(layer "F.CrtYd")
+		(uuid "2e7d8f06-92b1-437f-b6c3-235e3e8ce383")
+	)
+	(pad "1" smd rect
+		(at -0.45 0)
+		(size 0.6 1)
+		(layers "F.Cu" "F.Mask")
+		(uuid "003e114e-b0ac-40f1-9aec-50bbd5050086")
+	)
+	(pad "2" smd rect
+		(at 0.45 0)
+		(size 0.6 1)
+		(layers "F.Cu" "F.Mask")
+		(uuid "a5e10e8c-d3d0-475e-966d-105f9d5f626e")
+	)
+	(embedded_fonts no)
+)

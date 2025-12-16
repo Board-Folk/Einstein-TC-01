@@ -31,6 +31,10 @@ Projects are in Kicad 9.
 * The ADC0844 alternative footprint is a µPD7002 which requires C13 populating with 33nF (untested)
 * The value/range of L101 "Chrominance Rejector" is at this time unknown
 
+## Archive
+
+Currently contains the original copy of the v1.1 main board, which hasn't changed. The updated main Kicad folder now contains additional symbols and footprints only.
+
 ## Credit
 
 PCB layouts by Rob Taylor @peepouk. Schematics recreated by Ian Cudlip @grandoldian.

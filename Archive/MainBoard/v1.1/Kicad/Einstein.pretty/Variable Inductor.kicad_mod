@@ -1,0 +1,209 @@
+(footprint "VL1"
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(layer "F.Cu")
+	(descr "Resistor, Axial_DIN0207 series, Axial, Horizontal, pin pitch=10.16mm, 0.25W = 1/4W, length*diameter=6.3*2.5mm^2, http://cdn-reichelt.de/documents/datenblatt/B400/1_4W%23YAG.pdf")
+	(tags "Resistor Axial_DIN0207 series Axial Horizontal pin pitch 10.16mm 0.25W = 1/4W length 6.3mm diameter 2.5mm")
+	(property "Reference" "VL1"
+		(at 0.01 -2.59 0)
+		(layer "F.SilkS")
+		(uuid "546fc45c-fe0d-4364-8094-f980747a6cc5")
+		(effects
+			(font
+				(size 1.4 1.4)
+				(thickness 0.28)
+				(bold yes)
+			)
+		)
+	)
+	(property "Value" "13.5-22.5uH"
+		(at 5.08 2.37 0)
+		(layer "F.Fab")
+		(uuid "925fae32-839d-4c76-97a1-b2d547ef7c4e")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Footprint" "SVI728:Resistor 10.16mm"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "14b0a45e-e826-4695-b248-61869e8cdaf5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "e9bd7c21-2db6-484a-a16e-dd0dd2da7af1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" "Trimmable capacitor"
+		(at 0 0 0)
+		(unlocked yes)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "885cd7c0-a345-4f4c-a5a5-27bbe95a960a")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr through_hole)
+	(fp_line
+		(start 0 0)
+		(end 1.93 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f124b3fe-3eb7-4360-abab-7140d10fcd2a")
+	)
+	(fp_line
+		(start 1.93 -1.25)
+		(end 1.93 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "bc00bbf0-1aed-4a73-8636-ab8df486c3da")
+	)
+	(fp_line
+		(start 1.93 1.25)
+		(end 8.23 1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "85234bc9-ee62-4f32-8094-466288353835")
+	)
+	(fp_line
+		(start 8.23 -1.25)
+		(end 1.93 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "0ce176ca-65fa-497c-b0d1-685734f094c0")
+	)
+	(fp_line
+		(start 8.23 1.25)
+		(end 8.23 -1.25)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "f3c7b861-c6fc-43d1-bc3b-6712ea1d6b15")
+	)
+	(fp_line
+		(start 10.16 0)
+		(end 8.23 0)
+		(stroke
+			(width 0.1)
+			(type solid)
+		)
+		(layer "F.Fab")
+		(uuid "ab3713cc-5975-41e6-a8ea-ca5deb5e61b8")
+	)
+	(fp_text user "${REFERENCE}"
+		(at 5.08 0 0)
+		(layer "F.Fab")
+		(uuid "5c30f8a7-8695-401f-9bc9-7217e2727336")
+		(effects
+			(font
+				(size 1 1)
+				(thickness 0.15)
+			)
+		)
+	)
+	(pad "1" thru_hole circle
+		(at -4.03 3.33)
+		(size 3.14 3.14)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "3d3da4b6-bb67-4ca2-833b-b9ad894c6832")
+	)
+	(pad "1" thru_hole circle
+		(at -3.24 0.1)
+		(size 2.44 2.44)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "38c3b862-ff61-43d8-b795-07d890f007c6")
+	)
+	(pad "1" thru_hole circle
+		(at -3.24 6.22)
+		(size 2.44 2.44)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "b63861c6-ed3e-4483-ab45-2c8b04d35bc9")
+	)
+	(pad "1" thru_hole circle
+		(at 0.01 0.1)
+		(size 2.44 2.44)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "09e53723-39f5-4f83-995f-a416b168a10d")
+	)
+	(pad "1" thru_hole circle
+		(at 3.98 0.1)
+		(size 2.44 2.44)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "62f9c692-3635-4bf8-a134-5076f67b1bdc")
+	)
+	(pad "1" thru_hole circle
+		(at 5.33 3.33)
+		(size 3.14 3.14)
+		(drill 1.8)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "dfb49bad-f4ae-44bd-a543-08b9beba0d3e")
+	)
+	(pad "2" thru_hole circle
+		(at 3.98 6.13)
+		(size 2.44 2.44)
+		(drill 1.2)
+		(layers "*.Cu" "*.Mask")
+		(remove_unused_layers no)
+		(uuid "87f2eeb4-6fbd-4fd4-a177-e66edde4a5c5")
+	)
+	(model "${KICAD8_3DMODEL_DIR}/Resistor_THT.3dshapes/R_Axial_DIN0207_L6.3mm_D2.5mm_P10.16mm_Horizontal.wrl"
+		(offset
+			(xyz 0 0 0)
+		)
+		(scale
+			(xyz 1 1 1)
+		)
+		(rotate
+			(xyz 0 0 0)
+		)
+	)
+)

@@ -37,7 +37,7 @@ Currently contains the original copy of the v1.1 main board, which hasn't change
 
 ## Credit
 
-PCB layouts by Rob Taylor @peepouk. Schematics recreated by Ian Cudlip @grandoldian.
+Mainboard PCB layout by Rob Taylor @peepouk. Schematics recreated by Ian Cudlip @grandoldian.
 
 ## Expansions
 
@@ -47,15 +47,19 @@ Adapter board to allow the use of a TMS9929 chip on the Tatung Einstein TC-01.
 
 ### EinsteinTC01PS2
 
-Arduino Nano based PS/2 Keyboard Adapter for the Einstein TC-01
+Arduino Nano based PS/2 Keyboard Adapter for the TC-01.
 
 ### EinsteinTC01PS2Mini
 
-ATMEGA328 based PS/2 Keyboard Adapter for the Einstein TC-01
+ATMEGA328 based PS/2 Keyboard Adapter for the TC-01.
+
+### V9958AdapterTC01
+
+Yamaha V9958 Adapter with 192K Video RAM for the TC-01.
 
 ## Coming Soon
 
-* V9958 192K VDP Adapter (Experimental)
+* TC-02Mini 80 Column Adapter for Tatung Tube.
 
 ## Links
 

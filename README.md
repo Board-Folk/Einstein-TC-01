@@ -55,11 +55,15 @@ ATMEGA328 based PS/2 Keyboard Adapter for the TC-01.
 
 ### V9958AdapterTC01
 
-Yamaha V9958 Adapter with 192K Video RAM for the TC-01.
+Yamaha V9958/V9938 Adapter with 192K Video RAM for the TC-01.
+
+### TC02Mini
+
+Simple non-replica remake of the TC-02 80 column adapter for the TC01.
 
 ## Coming Soon
 
-* TC-02Mini 80 Column Adapter for Tatung Tube.
+* Remixes
 
 ## Links
 

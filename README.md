@@ -68,7 +68,7 @@ Simple non-replica remake of the TC-02 80 column adapter for the TC01.
 ## Links
 
    [10.6875MHz HC-49U Crystal](https://slawmir.com.pl/rezonator-10-6875mhz-hc49u-x5-p-6105.html)  
-   [5 pin "Domino" DIN Socket for Serial Port](https://vintage.imitation.parts/products/bbc-micro-parts/din-5-pcb-socket)
+   [5 pin "Domino" DIN Socket for Serial Port](https://vintage.imitation.parts/products/bbc-micro-parts/din-5-pcb-socket)  
    [Modifyable bracket for holding standard Volume Pot](https://sonicsynths.com/products/pcb_mounting_bracket_for_16mm_commercial_grade_pots)
 
 ## Thanks

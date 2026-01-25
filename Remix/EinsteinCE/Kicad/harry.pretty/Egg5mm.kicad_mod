@@ -1,0 +1,75 @@
+(footprint "Egg5mm"
+	(version 20241229)
+	(generator "pcbnew")
+	(generator_version "9.0")
+	(layer "F.Cu")
+	(property "Reference" "G***"
+		(at -0.227294 -2.26 0)
+		(layer "F.Fab")
+		(uuid "02c21261-ac1d-47de-a4cd-5b339b91de55")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+			)
+		)
+	)
+	(property "Value" "LOGO"
+		(at 0.75 0 0)
+		(layer "F.SilkS")
+		(hide yes)
+		(uuid "72b87d76-0b6c-48ca-b9cc-1162f5627a68")
+		(effects
+			(font
+				(size 1.5 1.5)
+				(thickness 0.3)
+			)
+		)
+	)
+	(property "Datasheet" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "9994ecac-6741-4c17-92c1-269395aadbb5")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(property "Description" ""
+		(at 0 0 0)
+		(layer "F.Fab")
+		(hide yes)
+		(uuid "64ad54b7-567d-4331-9e8e-7c88fc6647b1")
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.15)
+			)
+		)
+	)
+	(attr board_only exclude_from_pos_files exclude_from_bom)
+	(fp_poly
+		(pts
+			(xy 0.454585 -1.136466) (xy 0.454585 -0.909173) (xy 0.909171 -0.909173) (xy 1.363758 -0.909173) (xy 1.363758 -0.68188)
+			(xy 1.363758 -0.454587) (xy 1.591051 -0.454587) (xy 1.818344 -0.454587) (xy 1.818344 -0.000001) (xy 1.818344 0.454585)
+			(xy 1.591051 0.454585) (xy 1.363758 0.454585) (xy 1.363758 0.681878) (xy 1.363758 0.909171) (xy 0.909171 0.909171)
+			(xy 0.454585 0.909171) (xy 0.454585 1.136464) (xy 0.454585 1.363757) (xy -0.227294 1.363757) (xy -0.909173 1.363757)
+			(xy -0.909173 1.136464) (xy -0.909173 0.909171) (xy -1.136466 0.909171) (xy -1.363759 0.909171) (xy -1.363759 0.681878)
+			(xy -1.363759 0.454585) (xy -1.591052 0.454585) (xy -1.818345 0.454585) (xy -1.818345 -0.000001)
+			(xy -1.818345 -0.454587) (xy -1.591052 -0.454587) (xy -1.363759 -0.454587) (xy -1.363759 -0.68188)
+			(xy -1.363759 -0.909173) (xy -1.136466 -0.909173) (xy -0.909173 -0.909173) (xy -0.909173 -1.136466)
+			(xy -0.909173 -1.363759) (xy -0.227294 -1.363759) (xy 0.454585 -1.363759)
+		)
+		(stroke
+			(width 0)
+			(type solid)
+		)
+		(fill yes)
+		(layer "F.SilkS")
+		(uuid "6d3bfe89-529b-4a1d-a5db-4990b830556f")
+	)
+	(embedded_fonts no)
+)

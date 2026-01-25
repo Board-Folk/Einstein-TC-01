@@ -61,9 +61,15 @@ Yamaha V9958/V9938 Adapter with 192K Video RAM for the TC-01.
 
 Simple non-replica remake of the TC-02 80 column adapter for the TC01.
 
+## Remixes
+
+### Einstein CE
+
+Simplified Einstein with bits removed to fit on a small board. See description in folder.
+
 ## Coming Soon
 
-* Remixes
+* Another, comprehensive remix with expansions
 
 ## Links
 

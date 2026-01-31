@@ -49,6 +49,12 @@ Video output is simple, NTSC colour composite out. PAL would be much more expens
 
 As it the whole board is 5V only, the video RAM is 5V, *not* the traditional 4116 as you'd typically have with a TMS9918. Specified is MB8118 RAM if you can find it, but cheaper, 8 of the more available 4164 or 41256 RAM can be used in it place (mostly wasted, but it works).
 
+### Known Compatibility Issues
+
+More will follow in time
+
+  * It appears the Einstein Speculator uses the CTC, so that's not going to work sadly
+
 ## Build Notes
 
   * To reiterate (sorry) in Kicad, the square pin is pin 1. On an electrolytic capacitor this is positive, the long leg. On an LED, this is K, cathode, the short leg

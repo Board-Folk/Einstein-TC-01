@@ -33,7 +33,7 @@
 
 #include "keymapping.h"
 
-#define debug   true     // Set true for serial monitor of Einstein keycodes and PS/2 keycodes
+#define debug   false    // Set true for serial monitor of Einstein keycodes and PS/2 keycodes
 
 #define MT8808  false    // This has to be set to false now as we use more lines than the MT8808 provides
 
@@ -49,7 +49,7 @@
 #define IGNORE_KEYCODE			0x154 //(DEC 340) (Must be > 128)
 
 // Key map value to reset the MT88xx chip
-#define MT_RESET        0x6C // (DEC 108) F12 activates MT88XX reset
+#define MT_RESET        0x6c // F12 activates MT88XX reset
 
 //MT88xx control pins
 #define ANALOG_SW_DATA        2 // Sets selected cross switch on/off (Old 13)
@@ -68,6 +68,7 @@
 
 // Key map value for capslock
 #define CAPSLOCK_KEY    0x03 // CapsLock key 
+#define CAPSLOCK_TRIG   72   // Einstein TC-01 Alph
 
 #define EinsteinGRPH    0x0e
 #define EinsteinLSHIFT  0x06

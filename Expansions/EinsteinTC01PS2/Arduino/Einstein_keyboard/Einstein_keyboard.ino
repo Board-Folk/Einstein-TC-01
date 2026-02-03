@@ -1,7 +1,7 @@
 /*
   Einsteinkeyboard - Tatung Einstein TC-01 / Einstein Remix Keyboard Library
   Adapted by Ian Cudlip
-  v0.1 01/12/2025
+  v0.3 03/02/2026
 
   Based on C64keyboard - Commodore Keyboard library by Hartland PC LLC
   Copyright (c) 2022 Hartland PC LLC

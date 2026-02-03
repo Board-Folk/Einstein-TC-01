@@ -174,17 +174,17 @@ void Einsteinkey(uint16_t k) {
       c=IGNORE_KEYCODE;
     }
 
-    // Einstein ALPH (256) Key - Remix - 26h bit 0
+    // Einstein ALPH (256) Key - Remix - 26h bit 0 - v0.2 now inverted as keyboard doesn't work the other way (!?)
     if (kc == EinsteinALPH) {
       if (bitRead(flags, 7)) {
         Einsteinalph=false;
-        digitalWrite(EinsteinALPH_PIN, LOW);
+        digitalWrite(EinsteinALPH_PIN, HIGH);
         if (debug) {
           Serial.println("ALPH (256) Off");
         } 
       } else {     
         Einsteinalph=true;
-        digitalWrite(EinsteinALPH_PIN, HIGH);
+        digitalWrite(EinsteinALPH_PIN, LOW);
         if (debug) {
           Serial.println("ALPH (256) On");
         } 
@@ -270,8 +270,11 @@ void Einsteinkey(uint16_t k) {
 
 // MT reset function    
     if (kc == MT_RESET) {
-    resetMT88();  
-    c=IGNORE_KEYCODE;
+      if (debug) {
+        Serial.println("MT Reset");
+      } 
+      resetMT88();  
+      c=IGNORE_KEYCODE;
    }   
     
 // Capslock function 
@@ -287,10 +290,10 @@ void Einsteinkey(uint16_t k) {
       }
       
       digitalWrite (ANALOG_SW_DATA, HIGH);
-      setswitch(6);
+      setswitch(CAPSLOCK_TRIG);
       delay(100);
       digitalWrite (ANALOG_SW_DATA, LOW);
-      setswitch(6);
+      setswitch(CAPSLOCK_TRIG);
       c = IGNORE_KEYCODE; 
       }
 
@@ -357,7 +360,6 @@ void Testkey(uint8_t c) {
     digitalWrite(ANALOG_SW_DATA , HIGH);
 }
 
-
 void Einsteinkeyboard::begin(const EinsteinKeymap_t &map) {
 
   keymap = &map;
@@ -383,13 +385,13 @@ void Einsteinkeyboard::begin(const EinsteinKeymap_t &map) {
   digitalWrite(EinsteinSHIFT_PIN, LOW);
   digitalWrite(EinsteinKRESET_PIN, LOW);
   digitalWrite(EinsteinCTRL_PIN, LOW);
-  digitalWrite(EinsteinALPH_PIN, LOW);
+  digitalWrite(EinsteinALPH_PIN, HIGH);
 
+  delay(100);
   resetMT88();
-  delay(500);
+  delay(100);
   resetMT88();
-
-  delay(5000);
+  delay(1000);
 
   // delay needs tweaking / adjusting
 

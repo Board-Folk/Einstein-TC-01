@@ -67,7 +67,11 @@ Simple non-replica remake of the TC-02 80 column adapter for the TC01.
 
 Simple adapter for Tandy (Coco) and compatible analogue joysticks.
 
-#### (More to follow as testing progresses)
+#### TC01AtariJoystick
+
+Dual Atari Digital Joystick Adapter.
+
+#### (One more to go)
 
 ## Remixes
 

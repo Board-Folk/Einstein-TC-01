@@ -65,6 +65,8 @@ Simple non-replica remake of the TC-02 80 column adapter for the TC01.
 
 #### Withdrawn, apologies, I appear to have some of the directions the wrong way round will update
 
+Update: It turns out the y axis on Tandy joysticks is connected the other way round, which means it will require circuitry to make it work for Einstein games. Thinking about that. The Atari adapter previously posted needs the x axis swapping round to work correctly. Have done that and sent to JLC, will re-upload once tested next week (hopefully).
+
 ## Remixes
 
 ### Einstein CE

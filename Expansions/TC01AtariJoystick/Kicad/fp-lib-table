@@ -1,0 +1,4 @@
+(fp_lib_table
+  (version 7)
+  (lib (name "Einstein")(type "KiCad")(uri "${KIPRJMOD}/../../../Kicad/Einstein.pretty")(options "")(descr ""))
+)

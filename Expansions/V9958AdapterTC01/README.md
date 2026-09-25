@@ -16,9 +16,23 @@ You do not need to fit the video RAM chips on the main board at I40 and I41 with
 
 Not used or tested at the moment is the other pin on the header next to A1 which is for /WAIT which may or may not be used by any software at all, don't know about this, so connected this with a diode D151 (flagged DNP) between the VDP and the pin header. There isn't anything on the main board that uses /WAIT - that only connects to the Tatung Tube expansion port. This doesn't need connecting unless software uses it, and isn't required to function generally.
 
-UPDATE: The pre-connected solder bridge on the bottom of the board - required for the V9958 - should be cut if installing a V9938. This has now been tested and works fine.
+Note: The pre-connected solder bridge on the bottom of the board - required for the V9958 - should be cut if installing a V9938. This has now been tested and works fine.
 
 Some fake/relabelled AliExpress RAM got very hot and died on this board after passing regular RAM tests, so be careful what you use. Not sure of the official speed requirements. Equally, there are plenty of completely fake V9958, many labelled copyright 1901.
+
+## Update
+
+A couple of issues have been noted when installing this on an original factory built TC-01 that didn't crop up in testing on the replica build. The first relating to this board, the second relating to the use of the Einstein 256 ROM in the TC-01.
+
+### Fix 1
+
+The original voltage regulator at I106 as factory fitted is a LM350T5, which with this VDP adapter fitted overheats and cuts out causing the system to crash. This needs replacing with a higher rating compatible regulator. Fitting the wrong voltage regulator or voltage regulator the wrong way round will cause serious damage. This has been successfully tested with a Traco TSR 1-2450. You can test the voltage either side of C057 (C57 on the replica) before fitting any VDP for 5V.
+
+### Fix 2
+
+On some systems with the Einstein 256 ROM fitted, Alph lock randomly enables and disables. This is due to a port being missing at address 26h that is present on the Einstein 256 and not on the TC-01. A patch to the ROM is needed to stop this happening.
+
+Port 26h is read and checked for bit 0 for the Alph key being pressed in 3 places in the ROM code, first offset 7d8h. The three occurrences of db26e601 can be replaced with with db26e600 - removing the bit comparison for the Alph key.
 
 ## Photos
 

@@ -26,7 +26,7 @@ A couple of issues have been noted when installing this on an original factory b
 
 ### Fix 1
 
-The original voltage regulator at I106 as factory fitted is a LM350T5, which with this VDP adapter fitted overheats and cuts out causing the system to crash. This needs replacing with a higher rating compatible regulator. Fitting the wrong voltage regulator or voltage regulator the wrong way round will cause serious damage. This has been successfully tested with a Traco TSR 1-2450. You can test the voltage either side of C057 (C57 on the replica) before fitting any VDP for 5V.
+The original voltage regulator at I106 as factory fitted is a LM350T5, which with this VDP adapter fitted overheats and cuts out causing the system to crash. This needs replacing with a higher rating compatible regulator, 1 Amp or greater. Fitting the wrong voltage regulator or voltage regulator the wrong way round will cause serious damage. This has been successfully tested with a Traco TSR 1-2450. You can test the voltage either side of C057 (C57 on the replica) before fitting any VDP for 5V.
 
 ### Fix 2
 
